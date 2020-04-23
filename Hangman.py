@@ -7,7 +7,7 @@ root.wm_title("Hangman")
 
 my_images = []                                      #pre-load images in list
 for i in range(0,11):
-    im = "/Users/kieronstewart/Documents/Coding/Python/Hangman/Images/image" + str(i) + ".gif"
+    im = "/Images/image" + str(i) + ".gif"
     my_images.append(PhotoImage(file = im))
 im_number = int(0)
 guess = str("")
