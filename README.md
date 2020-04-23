@@ -1,4 +1,4 @@
 # Hangman
 
 unpack image zip. 
-Edit path in hangman.py to the image folder
+You may need to edit path in hangman.py to the image folder
