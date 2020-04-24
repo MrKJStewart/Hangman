@@ -13,7 +13,7 @@ im_number = int(0)
 guess = str("")
 
 def word_generator():
-    lines = open('/Users/kieronstewart/Documents/Coding/Python/Hangman/words.txt').read().splitlines()
+    lines = open('words.txt').read().splitlines()
     global word, length, word_list
     word = random.choice(lines)[:-1]                #[:-1] deletes "\" at end of each word, due to .txt conversion
     #print(word)                                     #to help
